@@ -1,0 +1,166 @@
+@import url(reset.css);
+
+body {
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+  background-color: #272a41;
+  font-family: 'Oswald', sans-serif;
+}
+
+header {
+  background-color: #6992dd;
+}
+
+header nav {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1020px;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+header nav a {
+  margin: 3px 3px;
+  padding: 2px;
+  border: 3px solid #272a41;
+  font-size: 18px;
+  border-radius: 10px;
+  color: #272a41;
+  font-weight: bold;
+  text-align: center;
+}
+
+header nav a:hover {
+  border: 3px solid white;
+  color: white;
+}
+
+main {
+  max-width: 1020px;
+  margin: 0 auto;
+  flex: 1;
+}
+
+main h1 {
+  width: auto;
+  margin: 20px auto;
+  font-size: 40px;
+  color: #6992dd;
+  text-align: center;
+}
+
+main section.sammary {
+  display: flex;
+  margin: 20px auto;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main section.sammary img {
+  display: block;
+  width: 25%;
+  max-width: 200px;
+  min-width: 145px;
+  border-radius: 100%;
+  border: 3px solid #6992dd;
+}
+
+main section.sammary p {
+  min-width: 200px;
+  width: 60%;
+  text-align: justify;
+  color: #babec9;
+  font-size: 18px;
+}
+
+main section.contacts {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+main section.contacts p {
+  font-size: 32px;
+  font-weight: bold;
+  color: #babec9;
+}
+
+main section.contacts div {
+  display: flex;
+  width: 60%;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 40px;
+}
+
+main section.contacts div i {
+  color: #6992dd;
+}
+
+main section.contacts div i:hover {
+  color: white;
+}
+
+main section.skills-experience {
+  display: flex;
+  margin: 30px auto;
+  flex-flow: row wrap;
+  justify-content: center;
+  color: #babec9;
+}
+
+main section.skills-experience p {
+  font-size: 24px;
+}
+
+main section.skills-experience li {
+  margin-top: 5px;
+  margin-left: 10px;
+  font-weight: 300;
+  list-style-type: circle;
+}
+
+main section.education {
+  color: #babec9;
+}
+
+main section.education div.courses {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+main section.education div.courses p {
+  font-size: 24px;
+}
+
+main section.education div.courses a {
+  margin: 0 10px;
+  font-size: 18px;
+  color: #6992dd;
+}
+
+main section.education div.courses a:hover {
+  color: white;
+}
+
+main section.education p.english {
+  margin: 30px auto;
+  text-align: center;
+}
+
+footer {
+  background-color: #6992dd;
+}
+
+footer p {
+  max-width: 1020px;
+  margin: 0 auto;
+  font-size: 12px;
+  color: #272a41;
+}
