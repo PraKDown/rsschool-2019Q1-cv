@@ -1,10 +1,5 @@
 @import url(reset.css);
 
-@keyframes shadow {
-  from {background: linear-gradient(to bottom, #272a41, #241b46)}
-  to {background: linear-gradient(to top, #272a41, #241b46);}
-}
-
 @keyframes animate { 
   0%{background-position:0% 50%}
   50%{background-position:100% 50%}
