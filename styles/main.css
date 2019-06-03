@@ -13,7 +13,7 @@ body {
   font-family: 'Oswald', sans-serif;
   background: linear-gradient(270deg, #2a2e52, #1a1431);
   background-size: 400% 400%;
-  animation: animate 20s ease infinite;
+  animation: animate 50s ease infinite;
 }
 
 header {
