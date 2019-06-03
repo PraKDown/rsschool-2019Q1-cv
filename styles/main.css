@@ -11,9 +11,9 @@ body {
   flex-flow: column;
   min-height: 100vh;
   font-family: 'Oswald', sans-serif;
-  background: linear-gradient(270deg, #2a2e52, #1a1431);
+  background: linear-gradient(-45deg, #242f99, #121647, #1f1544, #2c1458);
   background-size: 400% 400%;
-  animation: animate 40s ease-out infinite;
+  animation: animate 50s ease infinite;
 }
 
 header {
