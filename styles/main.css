@@ -1,39 +1,29 @@
 @import url(reset.css);
 
+@keyframes shadow {
+  from {background: linear-gradient(to bottom, #272a41, #241b46)}
+  to {background: linear-gradient(to top, #272a41, #241b46);}
+}
+
+@keyframes animate { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
 body {
   display: flex;
   flex-flow: column;
   min-height: 100vh;
-  background-color: #272a41;
   font-family: 'Oswald', sans-serif;
+  background: linear-gradient(270deg, #2a2e52, #1a1431);
+  background-size: 400% 400%;
+  animation: animate 20s ease infinite;
 }
 
 header {
   background-color: #6992dd;
-}
-
-header nav {
-  display: flex;
-  margin: 0 auto;
-  max-width: 1020px;
-  flex-flow: row wrap;
-  justify-content: center;
-}
-
-header nav a {
-  margin: 3px 3px;
-  padding: 2px;
-  border: 3px solid #272a41;
-  font-size: 18px;
-  border-radius: 10px;
-  color: #272a41;
-  font-weight: bold;
-  text-align: center;
-}
-
-header nav a:hover {
-  border: 3px solid white;
-  color: white;
+  height: 10px;
 }
 
 main {
